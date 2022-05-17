@@ -473,7 +473,6 @@ header {
       border-radius: 10px;
       position: relative;
       z-index: 2;
-      opacity: 0;
       transition: 500ms;
       transform: translateY(0);
       transition-delay: 300ms;
@@ -682,6 +681,184 @@ header {
       width: 20em;
       height: 3em;
     }
+
+     .name_Nico p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+    }
+    
+    .name_Nigel p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      width: 20em;
+      height: 3em;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      border-radius: 3.4px;
+    }
+    
+    .name_Robin p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+    
+    .name_Roel p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Sterre p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Thomas p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Winnie p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Wouter p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+
+    .name_Chelsea p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Ivan p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+    .name_Joost p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15em;
+      margin-left: 6em;
+      z-index: 99;
+      font-weight: bolder;
+      background-color: var(--accent-bg);
+      color: var(--main-bg);
+      opacity: 0.9;
+      width: 20em;
+      height: 3em;
+      border-radius: 3.4px;
+    }
+
+
     /* Team info */
     .kevin_info span {
       display: flex;
@@ -691,7 +868,15 @@ header {
       font-weight: bolder;
     }
     
-    .hans_info span {
+    .Nico_info span {
+      display: flex;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .Nigel_info span {
       display: flex;
       margin-left: 5.5em;
       margin-top: -12em;
@@ -699,7 +884,7 @@ header {
       font-weight: bolder;
     }
     
-    .lisa_info span {
+    .Robin_info span {
       display: flex;
       margin-left: 5.5em;
       margin-top: -12em;
@@ -707,7 +892,31 @@ header {
       font-weight: bolder;
     }
     
-    .eva_info span {
+    .Roel_info span {
+      display: flex;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .Sterre_info span {
+      display: flex;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .Thomas_info span {
+      display: flex;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .Winnie_info span {
       display: flex;
       margin-left: 5.5em;
       margin-top: -12em;
@@ -715,54 +924,38 @@ header {
       font-weight: bolder;
     }
     
-    .name_hans p {
+    .Wouter_info span {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: -15em;
-      margin-left: 6em;
-      z-index: 99;
-      width: 20em;
-      height: 3em;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
       font-weight: bolder;
-      background-color: var(--accent-bg);
-      color: var(--main-bg);
-      opacity: 0.9;
-      border-radius: 3.4px;
     }
-    
-    .name_lisa p {
+
+    .Chelsea_info span {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: -15em;
-      margin-left: 6em;
-      z-index: 99;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
       font-weight: bolder;
-      background-color: var(--accent-bg);
-      color: var(--main-bg);
-      opacity: 0.9;
-      width: 20em;
-      height: 3em;
-      border-radius: 3.4px;
     }
-    
-    .name_eva p {
+
+    .Ivan_info span {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: -15em;
-      margin-left: 6em;
-      z-index: 99;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
       font-weight: bolder;
-      background-color: var(--accent-bg);
-      color: var(--main-bg);
-      opacity: 0.9;
-      width: 20em;
-      height: 3em;
-      border-radius: 3.4px;
     }
-    
+
+    .Joost_info span {
+      display: flex;
+      margin-left: 5.5em;
+      margin-top: -12em;
+      color: white;
+      font-weight: bolder;
+    }
+  
     /*--------------------------------------------------------------
     # Services
     --------------------------------------------------------------*/
