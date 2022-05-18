@@ -680,6 +680,7 @@ header {
       opacity: 0.9;
       width: 20em;
       height: 3em;
+      border-radius: 3.4px;
     }
 
      .name_Nico p {
@@ -695,6 +696,7 @@ header {
       opacity: 0.9;
       width: 20em;
       height: 3em;
+      border-radius: 3.4px;
     }
     
     .name_Nigel p {
