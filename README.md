@@ -1,9 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Serverside Performance Optimalisatie - Chippr.dev 
-Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe. 
-
-### Serverside Performance Optimization 
 Het toepassen van Minifying, Code Splitting, Caching en Compressie op de Chippr.dev overzichtspagina (van Sprint 9).
 In Sprint 9 ging het over "The Web is for everyone". Ik heb daarin gewerkt met Express en Node.JS. 
 
@@ -33,16 +30,28 @@ Door het minifyen van de CSS-code zie je meteen het verschil in de grootte. Zelf
 
 
 ### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
+Ik heb voor dit project geen code splitting toegepast.
 
 ### Caching
-Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
+De max-age op 300 staan. Zo ziet de header eruit om de openbare cache van 5 minuten in te schakelen:
+
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/90447045/171162722-1a000193-88af-4691-82d4-d7f0cfc94eb2.png">
+
 
 ### Compressie
-Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
+Voor Compressie heb ik een package moeten installeren.
+
+<img width="274" alt="image" src="https://user-images.githubusercontent.com/90447045/171162776-3c3e8abd-4cb2-44ad-b420-805e9564267b.png">
+
+### De resultaten 
+<img width="302" alt="image" src="https://user-images.githubusercontent.com/90447045/171162872-e5d070f8-928a-405f-8852-1f64e8d02c56.png">
+
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/90447045/171162896-16f986c8-2718-4d30-af69-48fae1f0af1c.png">
+
 
 ## Bronnen
-Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
+https://github.com/EmonaSantiago/performance-matters-serverside-optimization/blob/main/docs/INSTRUCTIONS.md
+
 
 ## Licentie
 
